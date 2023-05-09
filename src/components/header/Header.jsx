@@ -39,6 +39,24 @@ const Header = () => {
             <span>Airport taxis</span>
           </div>
         </div>
+        <h1 className="headerTitle"> A lifetime of discounts? It's Genius.</h1>
+        <p className="headerDesc">Get reward for your travel</p>
+        <button className="headerBtn">Sign in / Register</button>
+        <div className="headerSearch">
+          <div className="headerSearchItem">
+            <FontAwesomeIcon icon={faBed} className="headerIcon" />
+            <input type="text" placeholder="where are you going ?" className="headerSearchInput"/>
+          </div>
+          <div className="headerSearchItem">
+            <FontAwesomeIcon icon={faCalendarDays} className="headerIcon"/>
+            <span className="headerSearchText">date to date</span>
+          </div>
+          <div className="headerSearchItem">
+            <FontAwesomeIcon icon={faPerson} className="headerIcon" />
+            <span className="headerSearchText"> adults 2 children 1 room</span>
+          </div>
+        </div>
+
 
         </div>      
     </div>
