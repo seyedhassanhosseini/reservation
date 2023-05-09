@@ -15,10 +15,18 @@
   display: flex;
   gap: 40px;
   margin-bottom: 50px;
+  margin-top: 10px;
+  margin-left: 5px
 };
 
 .headerListItem  {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.headerListItem.active  {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
 }
